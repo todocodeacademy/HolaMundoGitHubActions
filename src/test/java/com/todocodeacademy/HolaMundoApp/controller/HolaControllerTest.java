@@ -18,6 +18,6 @@ class HolaControllerTest {
     void deberiaResponderHolaMundo() throws Exception {
         mvc.perform(get("/hola"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hola Mundo. Suscribite a TodoCode"));
+                .andExpect(content().string("Hola Mundo. Suscribite a TodoCode YA"));
     }
 }
